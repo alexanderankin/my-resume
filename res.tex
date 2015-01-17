@@ -1,0 +1,52 @@
+% LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass{res} 
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+\usepackage{hyperref}
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\setlength{\textheight}{9.5in} % increase text height to fit on 1-page 
+
+\begin{document} 
+
+%\name{Dave Ankin\\[12pt]}     % the \\[12pt] adds a blank
+				        % line after name      
+\begin{center}{\bf\LARGE Dave Ankin}\end{center}
+\address{\bf  Where am i\\5 Patriot Court\\Stony Brook, NY 11790\\(267) 992-5122}
+\address{}
+                                  
+\begin{resume}
+ 
+\section{School}          
+    Stony Brook University, Stonybrook, NY  \\        
+    BS CS, Expected '18   \\       
+    3.4 gpa
+ 
+\section{Projects}
+   \vspace{-0.1in}	
+   \begin{tabbing}
+    {\bf GitHub Handle} alexanderankin\\
+   \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
+    {\bf Tumblr Recommender} \>Java 8, Tumblr API v2     \`HackRU Fall 2014\\
+   \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
+    Content driven tool for improving your Tumblr dashboard built on a recursive algorithm, developed with Peter Ching, \href{https://github.com/vivianli32)}{Vivian li}, \href{https://github.com/eddiekimosabe}{Edward Kim}. |//Still a work in progress.|
+   \begin{tabbing}
+   \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
+    {\bf Web Site Maintenance} \>Html, css, PHP\`2014-present\\
+   \end{tabbing}\vspace{-20pt}
+    Manage the http://janekats.com website, update content. Most recently added Git versioning and MySQL backend.
+   \begin{tabbing}%
+   \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions          
+   {\bf Electronic Repair Technician} \> \`Summer 2014\\
+   \end{tabbing}\vspace{-20pt}
+    Repaired computer hardware, changed capacitors, manually calibrated touchscreens with DOS CLI.
+   \begin{tabbing}
+   \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
+    {\bf Assistant to IT Director} \>Windows Windows, VBScript\`2011\\
+   \end{tabbing}\vspace{-20pt}
+    Updated PC's at highschool from image, automated data report with Excel, Access and VBScript. 
+
+ 
+\end{resume}
+\end{document}
+
